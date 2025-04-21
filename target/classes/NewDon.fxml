@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DonControllers.NewDonController">
+    <children>
+        <VBox alignment="CENTER" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <Label styleClass="title-label" text="Faire un Don" />
+
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <Label text="Association:" minWidth="100.0" />
+                    <Label fx:id="associationNameLabel" text="Nom de l'association" styleClass="info-label" />
+                </HBox>
+
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <Label text="Description:" minWidth="100.0" />
+                    <TextArea fx:id="associationDescriptionArea" editable="false" prefHeight="60.0" prefWidth="400.0" wrapText="true" />
+                </HBox>
+
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <Label text="Montant:" minWidth="100.0" />
+                    <TextField fx:id="montantField" promptText="Entrez le montant" />
+                </HBox>
+
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <Label text="Type de don:" minWidth="100.0" />
+                    <ComboBox fx:id="typeComboBox" prefWidth="200.0" />
+                </HBox>
+
+                <HBox alignment="CENTER" spacing="20.0">
+                    <Button fx:id="confirmButton" onAction="#handleConfirm" text="Confirmer" />
+                    <Button fx:id="cancelButton" onAction="#handleCancel" text="Annuler" />
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.AssociationListController"
+            prefHeight="600.0" prefWidth="900.0"
+            styleClass="main-container">
+
+    <VBox spacing="10" AnchorPane.topAnchor="0.0" AnchorPane.leftAnchor="0.0"
+          AnchorPane.rightAnchor="0.0" AnchorPane.bottomAnchor="0.0">
+
+        <!-- Header with title and search bar -->
+        <HBox spacing="20" alignment="CENTER_LEFT">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+
+            <Label text="Liste des associations" styleClass="page-title">
+                <font>
+                    <Font name="System Bold" size="20.0"/>
+                </font>
+            </Label>
+
+            <Region HBox.hgrow="ALWAYS"/>
+
+            <HBox spacing="10" alignment="CENTER_RIGHT">
+                <TextField fx:id="searchField" promptText="Rechercher une association..." prefWidth="250"/>
+                <Button text="Rechercher" onAction="#handleSearch"/>
+            </HBox>
+        </HBox>
+
+        <!-- Associations Grid -->
+        <ScrollPane fitToWidth="true" VBox.vgrow="ALWAYS">
+            <FlowPane fx:id="associationsContainer" hgap="20" vgap="20" prefWrapLength="860">
+                <padding>
+                    <Insets top="10" right="20" bottom="20" left="20"/>
+                </padding>
+            </FlowPane>
+        </ScrollPane>
+
+        <!-- Pagination -->
+        <HBox alignment="CENTER">
+            <Pagination fx:id="pagination" pageCount="1" maxPageIndicatorCount="5"/>
+        </HBox>
+    </VBox>
+</AnchorPane>

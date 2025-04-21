@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Pagination?>
+<?import java.net.URL?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" styleClass="anchor-pane" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AssociationControllers.AllAssociation">
+    <stylesheets>
+        <URL value="@/styles.css" />
+    </stylesheets>
+    <children>
+        <VBox styleClass="vbox" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox styleClass="header-hbox" alignment="CENTER_LEFT" spacing="15.0">
+                    <children>
+                        <Label prefHeight="46.0" prefWidth="437.0" text="Liste des associations" textAlignment="CENTER" styleClass="title-label">
+                            <font>
+                                <Font name="Baskerville Old Face" size="39.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="searchField" promptText="Rechercher par nom..." prefWidth="200.0" styleClass="search-field" />
+                        <Button mnemonicParsing="false" onAction="#addAssociation" text="Ajouter" styleClass="add-button" />
+                    </children>
+                </HBox>
+
+                <!-- En-têtes des colonnes -->
+                <HBox styleClass="column-headers">
+                    <children>
+                        <Label fx:id="headerID" styleClass="header-label" text="ID" />
+                        <Label fx:id="headerNom" styleClass="header-label" text="Nom" />
+                        <Label fx:id="headerDescription" styleClass="header-label" text="Description" />
+                        <Label fx:id="headerBut" styleClass="header-label" text="But" />
+                        <Label fx:id="headerContact" styleClass="header-label" text="Contact" />
+                        <Label fx:id="headerSiteweb" styleClass="header-label" text="Site Web" />
+                        <Label fx:id="headerImage" styleClass="header-label" text="Image" />
+                        <Label fx:id="headerAction" styleClass="header-label" text="Action" />
+                    </children>
+                </HBox>
+
+                <!-- Liste principale -->
+                <ListView fx:id="listView" styleClass="list-view" VBox.vgrow="ALWAYS" />
+
+                <!-- Pagination controls -->
+                <HBox alignment="CENTER" spacing="20.0" styleClass="pagination-container">
+                    <children>
+                        <Label fx:id="pageInfoLabel" text="Affichage 1 à 10 sur 0 associations" styleClass="page-info-label" />
+
+                        <HBox alignment="CENTER" spacing="5.0">
+                            <Label text="Éléments par page:" styleClass="elements-per-page-label" />
+                            <ComboBox fx:id="itemsPerPageComboBox" prefWidth="70.0" styleClass="items-per-page-combo" />
+                        </HBox>
+
+                        <Pagination fx:id="pagination" maxPageIndicatorCount="5" styleClass="pagination-control" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

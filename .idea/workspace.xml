@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c2c9280-7a40-43f6-8ac2-f8d2f0390a38" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2uvZ8I0brVWo1DdXcz4d2T06TSK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MainFX.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "Application.mainFx.executor": "Run",
+    "Maven.cultify [clean].executor": "Run",
+    "Maven.cultify [install].executor": "Run",
+    "Maven.cultify [javafx:run].executor": "Run",
+    "Maven.cultify [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.cultify [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor": "Run",
+    "Maven.cultify [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/adamo/IdeaProjects/cultify",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/adamo/IdeaProjects/cultify/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4183908",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adamo\IdeaProjects\cultify\src\main\resources\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adamo\IdeaProjects\cultify\src\main\resources\SideBar" />
+      <recent name="C:\Users\adamo\IdeaProjects\cultify\src\main\resources\Don" />
+      <recent name="C:\Users\adamo\IdeaProjects\cultify\src\main\resources\Association" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="cultify [javafx:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:run" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.cultify [javafx:run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c2c9280-7a40-43f6-8ac2-f8d2f0390a38" name="Changes" comment="" />
+      <created>1743130850409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743130850409</updated>
+      <workItem from="1743130851485" duration="51204000" />
+      <workItem from="1743650482219" duration="2274000" />
+      <workItem from="1743705300041" duration="9664000" />
+      <workItem from="1743778180025" duration="19009000" />
+      <workItem from="1743877330154" duration="10921000" />
+      <workItem from="1743939436844" duration="15421000" />
+      <workItem from="1744020850059" duration="17724000" />
+      <workItem from="1744153592875" duration="1901000" />
+      <workItem from="1744162751530" duration="3097000" />
+      <workItem from="1744211653150" duration="9209000" />
+      <workItem from="1744302432935" duration="8977000" />
+      <workItem from="1744388710681" duration="240000" />
+      <workItem from="1744401672106" duration="15715000" />
+      <workItem from="1744428184007" duration="5289000" />
+      <workItem from="1744503430321" duration="9507000" />
+      <workItem from="1744558171186" duration="4508000" />
+      <workItem from="1744581879570" duration="7154000" />
+      <workItem from="1744625033831" duration="8183000" />
+      <workItem from="1744661077704" duration="6651000" />
+      <workItem from="1744747904276" duration="34617000" />
+      <workItem from="1744881508238" duration="6920000" />
+      <workItem from="1744916524257" duration="9073000" />
+      <workItem from="1745161872662" duration="21241000" />
+      <workItem from="1745239563936" duration="12893000" />
+      <workItem from="1745521930557" duration="1999000" />
+      <workItem from="1745540101318" duration="1113000" />
+      <workItem from="1745616971558" duration="346000" />
+      <workItem from="1745619801199" duration="4830000" />
+      <workItem from="1745663067377" duration="2950000" />
+      <workItem from="1745685386539" duration="9551000" />
+      <workItem from="1745751986284" duration="9100000" />
+      <workItem from="1745846824191" duration="847000" />
+      <workItem from="1746046729005" duration="13377000" />
+      <workItem from="1746174695595" duration="12822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,122 @@
+/* Card styles */
+.card {
+    -fx-background-color: linear-gradient(to bottom right, #f89b29, #ff0f7b);
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 0, 0, 0, 0);
+    -fx-pref-width: 300px;
+    -fx-pref-height: 200px;
+    -fx-min-width: 300px;
+    -fx-min-height: 200px;
+    -fx-max-width: 300px;
+    -fx-max-height: 200px;
+    -fx-cursor: hand;
+    -fx-transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover {
+    -fx-rotate: -5;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 0);
+    -fx-z-index: 100;
+}
+
+.card-image {
+    -fx-background-radius: 10;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.card-content {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-opacity: 0;
+    -fx-rotate: -45;
+    -fx-transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover .card-content {
+    -fx-opacity: 1;
+    -fx-rotate: 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 0);
+}
+
+.card-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-alignment: center;
+    -fx-padding: 0 0 5 0;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #eee;
+}
+
+.card-description {
+    -fx-font-size: 11px;
+    -fx-text-fill: #777;
+    -fx-line-spacing: 1.2;
+}
+
+.card-description strong {
+    -fx-font-weight: bold;
+}
+
+.progress-container {
+    -fx-padding: 0 10 10 10;
+    -fx-alignment: bottom-center;
+}
+
+.progress-bar {
+    -fx-pref-height: 10px;
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 5;
+}
+
+.progress-indicator {
+    -fx-background-radius: 5;
+}
+
+.progress-danger {
+    -fx-background-color: rgba(220, 53, 69, 0.7);
+}
+
+.progress-warning {
+    -fx-background-color: rgba(255, 193, 7, 0.7);
+}
+
+.progress-info {
+    -fx-background-color: rgba(13, 202, 240, 0.7);
+}
+
+.progress-success {
+    -fx-background-color: rgba(25, 135, 84, 0.7);
+}
+
+/* Scrollbar styling */
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .track,
+.scroll-bar:horizontal .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #888;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #555;
+}

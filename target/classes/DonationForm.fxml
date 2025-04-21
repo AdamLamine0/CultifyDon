@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DonControllers.DonationFormController">
+    <children>
+        <VBox alignment="CENTER" spacing="15.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+            <children>
+                <Label text="Faire un Don" styleClass="title-label" />
+                <Label fx:id="associationLabel" text="Association: " />
+                <TextField fx:id="montantField" promptText="Montant du don" />
+                <Button fx:id="submitButton" text="Soumettre" onAction="#submitDonation" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

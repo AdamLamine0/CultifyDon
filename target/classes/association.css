@@ -1,0 +1,92 @@
+/* Main container */
+.main-container {
+    -fx-background-color: #f8f9fa;
+}
+
+/* Page title */
+.page-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+/* Search field */
+.text-field {
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+}
+
+/* Card container */
+.card-container {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-cursor: hand;
+    -fx-transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card-container:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 15, 0, 0, 10);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-rotate: -5;
+}
+
+/* Front of card */
+.card-front {
+    -fx-background-radius: 10px;
+    -fx-background-color: transparent;
+}
+
+/* Back of card */
+.card-back {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+}
+
+/* Progress bars */
+.progress-bar {
+    -fx-background-radius: 10px;
+    -fx-background-insets: 0;
+}
+
+.progress-bar .bar {
+    -fx-background-radius: 10px;
+    -fx-background-insets: 0;
+}
+
+.progress-bar-danger .bar {
+    -fx-background-color: rgba(220, 53, 69, 0.7);
+}
+
+.progress-bar-warning .bar {
+    -fx-background-color: rgba(255, 193, 7, 0.7);
+}
+
+.progress-bar-info .bar {
+    -fx-background-color: rgba(13, 202, 240, 0.7);
+}
+
+.progress-bar-success .bar {
+    -fx-background-color: rgba(25, 135, 84, 0.7);
+}
+
+/* Scrollpane for card content */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 8px;
+}
+
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #888;
+    -fx-background-radius: 4px;
+}
